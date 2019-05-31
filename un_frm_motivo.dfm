@@ -1,0 +1,64 @@
+object frm_motivo: Tfrm_motivo
+  Left = 0
+  Top = 0
+  ClientHeight = 322
+  ClientWidth = 540
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object st_titulo: TStaticText
+    Left = 7
+    Top = 16
+    Width = 524
+    Height = 27
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'st_titulo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object texto_motivo: TcxMemo
+    Left = 7
+    Top = 56
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -13
+    Style.Font.Name = 'Tahoma'
+    Style.Font.Style = []
+    Style.IsFontAssigned = True
+    TabOrder = 1
+    Height = 201
+    Width = 524
+  end
+  object cxButton1: TcxButton
+    Left = 131
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    TabOrder = 2
+    OnClick = cxButton1Click
+  end
+  object cxButton2: TcxButton
+    Left = 320
+    Top = 280
+    Width = 75
+    Height = 25
+    Caption = 'Cancelar'
+    TabOrder = 3
+    OnClick = cxButton2Click
+  end
+end
