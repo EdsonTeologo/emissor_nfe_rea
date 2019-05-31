@@ -463,7 +463,7 @@ begin
    tsw_auto.Enabled:=false;
    timer1.Enabled:=false;
    timer1.Interval:=300000;
-   envio_de_notas;
+//   envio_de_notas;
    timer1.Enabled:=true;
    tsw_auto.Enabled:=true;
 end;
