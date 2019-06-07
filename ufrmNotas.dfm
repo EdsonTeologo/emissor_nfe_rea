@@ -56,6 +56,10 @@ object frmNotas: TfrmNotas
     object cxTabSheet1: TcxTabSheet
       Caption = 'Transmitir ao Sefaz'
       ImageIndex = 0
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxButton1: TcxButton
         Left = 3
         Top = 33
@@ -151,6 +155,10 @@ object frmNotas: TfrmNotas
     object cxTabSheet3: TcxTabSheet
       Caption = 'Notas com Problema'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxButton4: TcxButton
         Left = 3
         Top = 28
@@ -282,6 +290,10 @@ object frmNotas: TfrmNotas
     object tashenvio: TcxTabSheet
       Caption = 'Envio'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxLabel1: TcxLabel
         Left = 16
         Top = 18
@@ -330,6 +342,10 @@ object frmNotas: TfrmNotas
     object tashcancelado: TcxTabSheet
       Caption = 'Cancelamento'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxLabel3: TcxLabel
         Left = 24
         Top = 18
@@ -394,6 +410,10 @@ object frmNotas: TfrmNotas
     object tashcarta: TcxTabSheet
       Caption = 'Carta Corre'#231#227'o'
       ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxGrid2: TcxGrid
         Left = 0
         Top = 0
@@ -467,6 +487,10 @@ object frmNotas: TfrmNotas
     object tashinut: TcxTabSheet
       Caption = 'Inutiliza'#231#227'o'
       ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object cxDBMemo7: TcxDBMemo
         Left = 64
         Top = 72

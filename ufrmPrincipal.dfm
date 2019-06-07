@@ -3501,6 +3501,7 @@ object frmPrincipal: TfrmPrincipal
           Text2.AssignedValues = []
           Text3.AssignedValues = []
           Text4.AssignedValues = []
+          Visible = False
           OnClick = dxTileControl1Item8Click
           OnDeactivateDetail = DeactivateDetail
         end
@@ -3509,6 +3510,10 @@ object frmPrincipal: TfrmPrincipal
     object tbsAuto: TcxTabSheet
       Caption = 'tbsAuto'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object tsw_auto: TdxToggleSwitch
         Left = 24
         Top = 24

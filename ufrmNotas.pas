@@ -3025,6 +3025,12 @@ begin
                dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.vICMSSubstituto:=1.66*CLDASENFITEMQUANTIDADE.AsInteger;
                dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.vICMSSTRet:=6.99*CLDASENFITEMQUANTIDADE.AsInteger;
             END;
+            if CLDASENFITEMCOD_PRODUTO.AsString='CI-HO-001K' then BEGIN
+               dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.vBCSTRet:=0.39*CLDASENFITEMQUANTIDADE.AsInteger;
+               dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.pST:=32;
+               dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.vICMSSubstituto:=0.06*CLDASENFITEMQUANTIDADE.AsInteger;
+               dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.vICMSSTRet:=0.61*CLDASENFITEMQUANTIDADE.AsInteger;
+            END;
 
 
 //            dmconexao.ACBrNFe1.NotasFiscais.Items[0].NFe.Det.Items[item_recno-1].Imposto.ICMS.vBCSTRet:=CLDASENFITEMRECOLHIDO_ATE.AsFLOAT*CLDASENFITEMQUANTIDADE.asinteger;
